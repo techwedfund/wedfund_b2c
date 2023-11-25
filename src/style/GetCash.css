@@ -1,0 +1,77 @@
+.get_cash{
+    margin-top: 10rem;
+}
+
+.getCash-head{
+    margin-top: 8rem;
+    color: #000;
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.2%; /* 57.72px */
+}
+
+.getCash-para{
+    color: #6F0909;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.2%; /* 33.24px */
+}
+
+.getCash_img{
+    margin-top: 4rem;
+    width: auto;
+    height: auto;
+    /* background-color: #fff; */
+    flex-shrink: 0;
+}
+
+#getCash_img{
+    margin-top: 5rem;
+    width: auto;
+    height: auto;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 250px) {
+    .getCash-head{
+        font-size: 25px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #cv{
+        text-align: center;
+    }
+    #getCash_img{
+        margin-top: 8rem;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 991px){
+    .get_cash_align{
+        width: 50%;
+    }
+    #getCash_img{
+        margin-top: 9rem;
+    }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+    #getCash_img{
+        margin: 8rem 5rem 5rem 3rem;
+    }
+    .get_cash_align{
+        width: 50% !important;
+    }
+    #getHead{
+        margin-top: 8.9rem;
+        margin-left: 3rem;
+    }
+    #getCash-para{
+        margin-left: 3rem;
+    }
+}
